@@ -25,19 +25,18 @@
 
         body {
             font-family: 'MyCustomFont', sans-serif;
-            height: 100vh;
+            min-height: 100vh;
             width: 100%;
             display: flex;
             justify-content: center;
             align-items: center;
-            
-            /* Remote Background Image from the new URL */
+            padding: 40px 20px;
             background-image: url('background.jpg');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
             background-attachment: fixed;
-            overflow: hidden;
+            color: #ffffff;
         }
 
         .glass-card {
@@ -71,14 +70,14 @@
         }
 
         .profile-image {
-            width: 100px; /* Scaled for web balance while maintaining 1:1 ratio */
+            width: 100px;
             height: 100px;
             margin: 0 auto 25px auto;
             display: block;
-            border-radius: 15px; /* Optional slight roundness on the corners */
-            object-fit: contain; /* Ensures the whole 699x699 image is visible and unobstructed */
-            border: none; /* No border box */
-            background: transparent; /* No background box */
+            border-radius: 15px;
+            object-fit: contain;
+            border: none;
+            background: transparent;
         }
         
         .instruction-box {
